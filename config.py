@@ -23,13 +23,13 @@ APP_ID = int(os.environ.get("APP_ID", "24828197")) #Your API ID from my.telegram
 API_HASH = os.environ.get("API_HASH", "d36e278e89ebeb900aeda4128d413a77") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002386383823")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "sewxiy") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) # Owner id
+OWNER_ID = int(os.environ.get("OWNER_ID", "7768598381")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://raj:krishna@cluster0.eq8xrjs.mongodb.net/")
 DB_NAME = os.environ.get("DATABASE_NAME", "aftershave")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
